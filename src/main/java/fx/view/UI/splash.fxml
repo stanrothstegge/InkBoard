@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:controller="main.java.fx.controller.SplashController" prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.76-ea" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="65.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../assets/png/logo.png" />
+               </image></ImageView>
+            <Separator layoutX="287.0" layoutY="100.0" orientation="VERTICAL" prefHeight="200.0" />
+            <AnchorPane  layoutX="355.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="installButton" layoutX="63.0" layoutY="33.0" mnemonicParsing="false" text="installeren" />
+               </children>
+            </AnchorPane>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
