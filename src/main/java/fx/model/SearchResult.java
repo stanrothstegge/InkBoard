@@ -1,4 +1,4 @@
-package fx.model;
+package main.java.fx.model;
 
 /**
  * Class om informatie van een zoekresultaat te kunnen organiseren.
